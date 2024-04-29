@@ -1,0 +1,481 @@
+:root {
+  --font-1: "Montserrat";
+  --font-2: "--font-1";
+}
+.nav-bar-c {
+  background-color: transparent !important;
+  --bs-navbar-hover-color: rgba(255, 255, 255, 1);
+  --bs-navbar-color: white;
+  --bs-nav-link-color: var(--bs-navbar-color);
+  font-family: "Poppins", sans-serif;
+}
+.navbar-ul-bg {
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+.navbar-toggler{
+  color: transparent;
+  border: 0;
+}
+.nav-link{
+  font-size: 14px !important;
+  font-weight: 400 !important;
+}
+
+.navbar-nav {
+  --bs-nav-link-padding-y: 0.1rem;
+}
+.home-section {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(../imgs/bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.home-caption {
+  font-family: var(--font-1);
+}
+.header-content h4 {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+.header-content h1 {
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+  position: relative;
+}
+.header-content h1::after {
+  content: "|";
+  animation-name: ani-text;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  font-weight: 500;
+}
+@keyframes ani-text {
+  0% {
+    content: "";
+  }
+  2% {
+    content: "|";
+  }
+  4% {
+    content: "L|";
+  }
+  6% {
+    content: "La|";
+  }
+  8% {
+    content: "Lar|";
+  }
+  10% {
+    content: "Larr|";
+  }
+  12% {
+    content: "Larry|";
+  }
+  14% {
+    content: "Larry |";
+  }
+  16% {
+    content: "Larry D|";
+  }
+  18% {
+    content: "Larry D|";
+  }
+  20% {
+    content: "Larry Da|";
+  }
+  22% {
+    content: "Larry Dan|";
+  }
+  24% {
+    content: "Larry Dani|";
+  }
+  26% {
+    content: "Larry Danie|";
+  }
+  28% {
+    content: "Larry Daniels|";
+  }
+  38% {
+    content: "Larry Daniels|";
+  }
+  40% {
+    content: "";
+  }
+  42% {
+    content: "|";
+  }
+  44% {
+    content: "D|";
+  }
+  46% {
+    content: "De|";
+  }
+  48% {
+    content: "Des|";
+  }
+  50% {
+    content: "Desi|";
+  }
+  52% {
+    content: "Desig|";
+  }
+  54% {
+    content: "Design|";
+  }
+  56% {
+    content: "Designe|";
+  }
+  58% {
+    content: "Designer|";
+  }
+  68% {
+    content: "Designer|";
+  }
+  70% {
+    content: "";
+  }
+  72% {
+    content: "|";
+  }
+  74% {
+    content: "D|";
+  }
+  76% {
+    content: "De|";
+  }
+  78% {
+    content: "Dev|";
+  }
+  800% {
+    content: "Deve|";
+  }
+  82% {
+    content: "Devel|";
+  }
+  84% {
+    content: "Develo|";
+  }
+  86% {
+    content: "Develop|";
+  }
+  88% {
+    content: "Develope|";
+  }
+  90% {
+    content: "Developer|";
+  }
+  100% {
+    content: "Developer|";
+  }
+}
+.home-icons i {
+  padding-top: 7px;
+  width: 40px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.281);
+}
+.skill-pro {
+  --bs-progress-height: 1.5rem;
+}
+
+.about-caption h2 {
+  font-family: var(--font-1);
+  font-weight: 800;
+}
+.about-caption p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  font-family: var(--font-2);
+  line-height: 1.5;
+  color: rgb(153, 153, 153);
+}
+.about-caption p span {
+  font-weight: 600;
+  color: rgb(98, 98, 98);
+}
+.progress{
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15) inset;
+}
+.progress-bar{
+    border-radius: 7px;
+}
+.button-1dark,
+.button-2white {
+  transition: all 0.8s;
+}
+.button-1dark:hover {
+  background-color: white !important;
+  color: black !important;
+}
+.button-2white:hover {
+  background-color: black !important;
+  color: white !important;
+}
+.about-section .about-pic::after {
+  content: "";
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  left: -40px;
+  bottom: -40px;
+  background-image: url(../imgs/dots.png);
+  background-repeat: repeat;
+  z-index: -1;
+}
+.icon-ser {
+  background-color: #f4f4f4;
+  color: black;
+  transition: all .6s;
+}
+.card:hover .icon-ser {
+  background-color: black;
+  color: white;
+}
+.servies-header div {
+  height: 5px;
+  width: 40px;
+  background-color: #0078ff;
+}
+.card {
+  margin-inline: auto;
+  width: 90%;
+  box-shadow: 2px 2px 3px rgb(206, 205, 205);
+
+}
+.card-body h5 {
+  font-weight: 700;
+}
+.card-body p {
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+.servies-header h2::after {
+  content: "";
+  width: 100%;
+  height: 15px;
+  background-image: url(../imgs/dots.png);
+  background-repeat: repeat;
+  position: absolute;
+  bottom: -7px;
+   left: 0;
+  z-index: -1;
+}
+.servies-header h2{
+    margin-inline: auto;
+    font-family: var(--font-1);
+    font-weight: 900;
+    font-size: 3rem;
+    width: fit-content;
+}
+.work-section .work-back{
+    position: absolute;
+    width: 88%;
+    height: 86%;
+    margin-inline: auto;
+    margin-block: auto;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    background-color: white;
+    opacity: 0;
+    transition: all .7s;
+    transform:translateY(10px) ;
+
+}
+.work-back-caption h5{
+    font-size: 16px;
+    font-family: var(--font-1);
+    font-weight: 700;
+    margin-bottom: 20px;
+    transform: translateY(-20px);
+    transition: all .6s;
+}
+.work-section .work-img:hover  .work-back {
+    opacity: 1;
+    transform: translateY(0);
+
+}
+.work-back-icon i{
+    color: white;
+    background-color: black;
+   transition: all .5s;
+   border: 1px solid black;
+}
+.work-back-icon i:hover{
+    color: black;
+    background-color: transparent;
+    cursor: pointer;
+   
+}
+.nav-pills .nav-link.active{
+    background-color: transparent;
+    color: black;
+    border-bottom: 3px solid black;
+}
+.nav-link-pro{
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    padding: 0;
+margin-block: 35px  5px;
+    margin-inline: 15px;
+    color: black;
+}
+.nav-pills .nav-link{
+    border-radius: 0;
+}
+.nav-link:hover{
+    color: black;
+}
+.carousel-item img{
+    width: 30%;
+    margin-inline:auto ;
+    
+}
+.carousel-item{
+    height: 180px;
+}
+.slider-section{
+    background-image: url(../images/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.slider-back{
+
+    background-color: #f0f0f0b4;
+   
+}
+.carousel-indicators button{
+    margin-inline: 5px !important;
+    width: 13px !important;
+    height: 13px !important;
+    border-radius: 50%;
+    background-color: #808b8c !important;
+}
+.carousel-item .item-1 p{
+    color: #808b8c;
+font-size: 13px;
+}
+.carousel-item .item-1 p span{
+   font-weight: 700;
+   font-size: 14px;
+
+}
+.carousel-item .item-1 h5{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+.carousel-inner{
+    padding-block: 20px 100px;
+}
+.counter-icon{
+    width: 15%;
+    color: rgba(0, 0, 0, 0.85) !important;
+}
+.counter-txt h3{
+    font-family: var(--font-1);
+font-size: 32px;
+font-weight: 900;
+color: rgba(0, 0, 0, 0.85) !important;
+padding-block: 15px;
+}
+
+.team-section .team-back{
+    position: absolute;
+    width: 97%;
+    height: 97%;
+    margin-inline: auto;
+    margin-block: auto;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    background-color: rgba(255, 255, 255, 0.889);
+    opacity: 0;
+    transition: all .7s;
+    transform:rotateY(180deg) scale(.5) ;
+
+}
+.team-footer{
+    background-color: #5b5b5b;
+}
+.team-back-caption h5{
+    font-size: 16px;
+    font-family: var(--font-1);
+    font-weight: 700;
+    margin-bottom: 20px;
+    transform: translateY(-20px);
+    transition: all .6s;
+}
+.team-section .team-item:hover  .team-back {
+    opacity: 1;
+    transform:rotateY(0deg) scale(1) ;
+
+}
+.team-img img{
+    transition: all .7s;
+}
+.team-img:hover img{
+    transform: scale(1.2);
+}
+.team-back-icon i{
+    color: white;
+    background-color: black;
+   transition: all .5s;
+   border: 1px solid black;
+}
+.team-back-icon i:hover{
+    color: black;
+    background-color: transparent;
+    cursor: pointer;
+   
+}
+.team-section{
+    background-color: #f4f4f4;
+}
+
+.contact-icon {
+    background-color: #f4f4f4;
+    width: 72px;
+    padding: 15px;
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-align: center;
+    transition: all .5s;
+
+}
+.contact-section{
+    background-color: #f4f4f485;
+}
+.contact-section .item:hover .contact-icon {
+    background-color: #1c1c1c;
+    color: white;
+}
+
+.contact-section .item p{
+    color:#748182 ;
+    text-align: center;
+}
+.contact-input input ,
+.contact-input textarea {
+    padding-inline: 15px;
+    padding-top: 2px;
+    background-color: #f4f4f4;
+}
+.contact-input input:focus ,
+.contact-input textarea:focus{
+    outline: transparent;
+}
+.footer-end{
+    background-color: #1c1c1c;
+}

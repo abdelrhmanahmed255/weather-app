@@ -1,0 +1,54 @@
+@media (min-width: 992px){
+
+.navbar-nav .nav-link.active{
+        border-bottom: 2px solid white ;
+        color: white !important;
+    }
+    
+    .navbar-ul-bg {
+        background-color: transparent;
+        /* height: 0px; */
+    }
+    .navbar-ul-bg a{
+        font-size: .9rem !important;
+        color: white !important;
+        font-weight: 700;
+        
+    }
+    .nav-bar-c{
+        background-color: transparent !important;
+    }
+    .navbar-ul-bg .dropdown-menu a{
+        color: black !important;
+    }
+    .navbar-ul-bg .dropdown-menu a:hover{
+        color: black !important;
+    }
+    .header-content h1
+{
+    font-size: 3.5rem;
+ 
+}
+
+.carousel-item img{
+    width: 9%;
+    margin-inline:auto ;
+    
+}
+
+.carousel-item .item-1 p{
+    color: #808b8c;
+font-size: 16px;
+}
+
+.counter-icon i{
+   font-size: 2rem !important;
+}
+.contact-section{
+    width: 75%;
+    margin-inline: auto;
+    background-color: transparent;
+}
+
+
+}
